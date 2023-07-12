@@ -12,13 +12,11 @@ class ViewController: UIViewController {
     var lightOn = true
     @IBAction func buttonPressed(_ sender: Any) {
         lightOn.toggle()
-        print("light status"  ,lightOn)
-        if lightOn{
+        if lightOn {
             view.backgroundColor = .white
         } else {
-            view.backgroundColor = .white
+            view.backgroundColor = .black
         }
-        print("light status a tthe end", lightOn)
         
         
     }
